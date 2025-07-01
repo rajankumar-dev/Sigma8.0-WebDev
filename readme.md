@@ -1,6 +1,6 @@
 
 
-![Sigma 8.0](https://matlabinews.com/wp-content/uploads/2024/08/image-6.png)
+![Sigma 8.0](https://i.pinimg.com/736x/91/b8/16/91b816fdb3a54d925f6a7f19d1916c12.jpg)
 ## Sigma 8.0
 Sigma 8.0 is a full-stack web development course by [Shradha Khapra](https://www.youtube.com/@ApnaCollegeOfficial) & [Aman Dhattarwal](https://www.youtube.com/@AmanDhattarwal). From basics to full-stack, this repository documents my in-depth learning journey within the program.
 
