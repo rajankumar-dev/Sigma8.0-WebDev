@@ -1,6 +1,5 @@
 
 
-![Carbon Studio](https://github.com/rajankumar-dev/Sigma8.0-WebDev/blob/main/assignment/week-1/challenge-2/Screenshot.png?raw=true)
 ## 📸 Carbon Studio - Sidebar Menu Mini Project 
 Proud to share my mini project from my web development journey — a fully responsive, animated Sidebar Menu built with only HTML & CSS.
 
@@ -42,4 +41,8 @@ This project is licensed under the
 ## 📌 Feedback
 
 If you have any feedback, please reach out to us at rajankabirdev@gmail.com
+<hr>
 
+## 📸 Preview 
+
+![Carbon Studio](https://github.com/rajankumar-dev/Sigma8.0-WebDev/blob/main/assignment/week-1/challenge-2/Screenshot.png?raw=true)
