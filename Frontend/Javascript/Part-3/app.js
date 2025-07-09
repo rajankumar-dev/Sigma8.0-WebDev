@@ -49,7 +49,60 @@ console.log(info);
 let cars = ['audi', 'maruti', 'suzuki'];
 cars.push('toyota'); //Push Methods
 cars.pop(); //pop Methods
-cars.unshift("ferrary"); // unshift
-cars.shift("ferrary"); // shift
+cars.unshift("ferrary"); // unshift Methods
+cars.shift("ferrary"); // shift Methods
 
 console.log(cars);
+
+// indexOf Method
+let ind = cars.indexOf('suzuki');
+console.log(ind);
+
+// Concat Method
+let allArr = cars.concat(info);// return a new array
+console.log(allArr);
+
+let reverseArr = allArr.reverse();// also affect original array
+console.log(reverseArr);
+
+// Slice Methods --> Always take 2 args first starting index and (Last index + 1) bcz do not consider the last digit.
+let colors =['red','yellow', 'blue', 'orenge', 'black'];
+colors.slice(); //Also return a copy of complete Array
+colors.slice(2); //Start index 2 and goes to last elements
+colors.slice(2,3);// return only 2 index value
+console.log(colors.slice(-2)); //4-2 = 2, so start with index 2
+
+// splice Method --> Affect Original Array
+// splice(Start, deleteCount, item0...intemN)
+console.log(colors.splice(1,1,'voilet'));
+console.log(colors);
+
+// sort methods
+let sorted = colors.sort();
+
+//Practice Question
+let start =  ['jan', 'jul', 'mar', 'aug'];
+let final = start.splice(0,2,"july","june");
+console.log(start);
+
+// Array Reference
+let arr = ['a','b','c'];
+let arrCopy = arr;
+arr == arrCopy;
+arr === arrCopy;
+arr.push('d');//also add to arrCopy Array
+console.log(arr);
+console.log(arrCopy);
+
+//Constant Array
+const arr1 = [1,2,3,4];
+arr1.push(5);//we can also do all operation on const array but we can not create a new array in same const array
+
+//Nested Array(Multi-Dimentional Array)
+let multiArr = [[1,2],[3,4],[5,6]];
+
+
+
+
+
+
