@@ -57,11 +57,15 @@
         <!-- main-content -->
         <div class="main-content">
             <div class="sticky-nav">
-                <img src="./assets/backward_icon.png" alt="">
-                <img src="./assets/forward_icon.png" alt="">
-                <button class="badge">Explore Premium</button>
-                <button class="badge"><i class="fa-solid fa-circle-down"></i>Install App</button>
-                <i class="fa-regular fa-user"></i>
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" alt="" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
             </div>
             <div class="cards"></div>
         </div>
