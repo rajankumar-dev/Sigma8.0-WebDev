@@ -123,6 +123,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 1;
 }
 .sticky-nav-icons{
     margin-left: 0.75rem;
@@ -177,7 +178,18 @@ a{
 }
 /* cards */
 /* main-content */
-
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 95%;
+    height: 30%;
+    border-top: 1px solid white ;
+    opacity: 0.3;
+}
 /* music-player */
 .music-player{
     background-color: black;
