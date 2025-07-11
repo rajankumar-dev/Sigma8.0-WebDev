@@ -194,8 +194,117 @@ a{
 .music-player{
     background-color: black;
     width: 100%;
-    height: 72px;
+    height: 80px;
     position: fixed;
     bottom: 0;
+    display: flex;
 }
+.left-panel{
+    height: 4rem;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 0.50rem 0 ;
+    position: relative;
+}
+.left-panel img{
+    height: 100%;
+    cursor: pointer;
+}
+.left-panel-title{
+    font-size: 0.90rem;
+    font-weight: 500;
+    margin-left: 0.75rem;
+    cursor: pointer;
+}
+.title-info{
+    font-size: 0.75rem;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: -8px;
+}
+.left-panel-icons {
+    position: absolute;
+    right: 5rem;
+}
+.left-panel-icons i {
+    margin: 0.25rem;
+    cursor: pointer;
+}
+/* middle-panel */
+.middle-panel{
+    height: 4rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.50rem 0 ;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+}
+.player-controls img{
+    height: 1rem;
+    margin: 1.75rem 1.5rem 0 1.5rem;
+    opacity: 0.7;
+}
+.player-controls img:hover{
+    opacity: 1;
+}
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.35rem;
+    
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #085625;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+/* middle-panel */
+/* right-panel */
+.right-panel{
+    height: 4rem;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 0.50rem 0 ;
+    position: relative;
+    right: -50px;
+}
+
+.right-panel-icons i{
+    padding: 0.35rem;
+    opacity: 0.25rem;
+    cursor: pointer;
+}
+.right-panel-icons input{
+    padding: .25rem;
+    cursor: pointer;
+}
+/* right-panel */
+
 /* music-player */
