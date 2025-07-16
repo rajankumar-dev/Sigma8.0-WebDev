@@ -1,7 +1,7 @@
 
 # WEEK-2 
 
-Welcome to my Week Two Assignments repository! Here, you'll find solutions to CSS challenges.
+Welcome to my Week 2 Assignments repository! Here, you'll find solutions to CSS challenges.
 ## 🧰 Tech Stack
 
 
