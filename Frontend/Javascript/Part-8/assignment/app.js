@@ -29,4 +29,4 @@ console.log(doubleAndReturnArgs([1,2,3],3,4));
 
 // Qs - 5
 const mergeObjects = (obj1,obj2) => ({...obj1},{...obj2});
-console.log(mergeObjects({a:1,b:2},{c:4,d:5},));
+console.log(mergeObjects({a:1,b:2},{c:4,d:5}));
