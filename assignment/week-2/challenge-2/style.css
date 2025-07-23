@@ -213,13 +213,13 @@ a{
 }
 .left-panel-title{
     font-size: 0.90rem;
-    font-weight: 500;
     margin-left: 0.75rem;
+    font-weight: 500;
     cursor: pointer;
 }
 .title-info{
-    font-size: 0.75rem;
     font-weight: 300;
+    font-size: 0.75rem;
     opacity: 0.9;
     margin-top: -8px;
 }
@@ -269,6 +269,7 @@ a{
     background-color: transparent;
     cursor: pointer;
 }
+
 .progress-bar::-webkit-slider-runnable-track{
     background-color: #ddd;
     border-radius: 100px;
