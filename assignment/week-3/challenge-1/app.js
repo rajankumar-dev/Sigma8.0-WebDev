@@ -26,6 +26,6 @@ function btnFlash(btn){
 function levelUp(){
     level++;
     h2.innerText = `level ${level}`;
-
+    let random
     btnFlash();
 }
