@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(58, 182, 140);
+    font-family: perma;
+    font-family: "Permanent Marker", cursive;
+    
+    
+}
+.container{
+    background-color: wheat;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1rem;
+}
+.month{
+    background-color: rgb(220, 106, 45);
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+    height: 15%;
+    font-size: xx-large;
+}
+.days, .year{
+    color: rgb(73, 71, 71);
+}
+.days{
+    margin-top: 1rem;
+    font-size:larger;
+}
+.date{
+    margin-top: 1rem;
+    font-size: 64px;
+}
+.year{
+    margin-top: 2rem;
+    font-size:larger;
+}
