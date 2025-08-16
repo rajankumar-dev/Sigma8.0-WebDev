@@ -71,7 +71,7 @@ furniture-website/
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ## [Static Furniture Website](https://github.com/rajankumar-dev/Sigma8.0-WebDev/tree/main/assignment/week-2/challenge-1)
 
