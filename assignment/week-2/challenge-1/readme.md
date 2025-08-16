@@ -39,9 +39,9 @@ A sleek and responsive **Furniture Website** built using **HTML5**, **CSS3**, an
 ## 🚀 Features
 
 * 🧭 **Responsive Navigation Bar**
-* 🛋️ **Furniture Showcase** with cards and images
-* 🗂️ **Multiple Sections**: Home, About, Products, Contact
-* 🌙 **Modern UI** design using Bootstrap utilities
+* 🛋️ **Furniture Showcase** with cards and images.
+* 🗂️ **Multiple Sections**: Home, About, Products, Contact.
+* 🌙 **Modern UI** design using Bootstrap utilities.
 * 📱 Fully **responsive design** for all screen sizes
 
 ---
