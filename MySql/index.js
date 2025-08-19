@@ -19,6 +19,8 @@ try{
     
 }
 
+connection.end();
+
 let getRandomUser = () => {
     return {
         userId: faker.string.uuid(),
