@@ -14,3 +14,12 @@ const userSchema = new mongoose.Schema({
     email: String
 });
 
+//Create a model
+const User = mongoose.model('User', userSchema);
+
+//Create a new user
+const user3 = new User({
+    name: 'John Doe',
+    age: 30,
+    email: 'rajankabi9@gmail.com'
+});
