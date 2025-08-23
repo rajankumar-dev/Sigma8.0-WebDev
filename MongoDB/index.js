@@ -23,3 +23,7 @@ const user3 = new User({
     age: 30,
     email: 'rajankabi9@gmail.com'
 });
+
+//Save the user to the database
+user3.save().then((res) => console.log(res))
+.catch(err => console.log(err));
