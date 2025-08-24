@@ -17,13 +17,32 @@ const userSchema = new mongoose.Schema({
 //Create a model
 const User = mongoose.model('User', userSchema);
 
-//Create a new user
+//Create one new user
 const user3 = new User({
     name: 'John Doe',
     age: 30,
     email: 'rajankabi9@gmail.com'
 });
-
+//Create one new user
+User.insertMany([
+    {
+        name: 'lan Doe',
+        age: 30,
+        email: 'afdfasfd@gmail.com'
+    },
+    {
+        name: 'afdf Doe',
+        age: 30,
+        email: 'kajy@gmail.com'
+    },
+    {
+        name: 'laas Doe',
+        age: 30,
+        email: 'rjdfklfadhf@gmail.com'
+    }
+]).then((res) => {
+    console.log(res);
+})
 //Save the user to the database
 user3.save().then((res) => console.log(res))
 .catch(err => console.log(err));
