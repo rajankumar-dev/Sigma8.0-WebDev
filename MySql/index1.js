@@ -7,12 +7,12 @@ const app = express();
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    database: 'delta_app2',
+    database: 'delta_app',
     password:"1128"
 });
 
 app.get("/", (req,res) => {
-    res.send("welcome to homepage");
+    res.send("welcome");
 })
 
 app.listen(port, () => {
