@@ -7,9 +7,9 @@ Sigma 8.0 is a full-stack web development course by [Shradha Khapra](https://www
 
 ## Documentation
 
+• [Projecst](https://github.com/rajankumar-dev/Sigma8.0-WebDev/tree/main/assignment)
 • [Assignments](https://github.com/rajankumar-dev/Sigma8.0-WebDev/tree/main/assignment).
 
-• [Projecst](https://github.com/rajankumar-dev/Sigma8.0-WebDev/tree/main/assignment)
 
 • [Blogs](http://bit.ly/43KApkz)
 
@@ -33,9 +33,9 @@ Sigma 8.0 is a full-stack web development course by [Shradha Khapra](https://www
 
 ## Contributing
 
-Contributions are always Welcome.
+Contributions are always Welcome
 
-See `contributing.md` for ways to get started.
+See `contributing.md` for ways to get started
 
 
 
