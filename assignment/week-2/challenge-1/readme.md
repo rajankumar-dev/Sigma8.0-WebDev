@@ -16,9 +16,9 @@ Welcome to my Week 2 Assignments repository! Here, you'll find solutions to CSS 
 ## ✨ Features
 - 🧭 Responsive Web Design — All section are fully Responsive
 - 🎨 Smooth Hover Effects — On menu and Button and icons
-- 🔒 Unsplash — Use copywrite free Picture on Unsplash
-- 📱 Mobile Friendly — Viewport and layout adaptable
 - 🎥 Custom Background — Stylish fullscreen background image
+- 📱 Mobile Friendly — Viewport and layout adaptable
+- 🔒 Unsplash — Use copywrite free Picture on Unsplash
 
 
 ## [Static Furniture Website](https://github.com/rajankumar-dev/Sigma8.0-WebDev/tree/main/assignment/week-2/challenge-1)
