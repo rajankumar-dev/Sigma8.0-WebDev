@@ -20,13 +20,17 @@ async function main() {
 }
 
 
-//index Route
+//Index Route
 app.get("/chats", async (req, res) => {
     let chats = await Chat.find();
     console.log(chats);
     res.render("index.ejs", {chats});
-    
-})
+});
+
+//Create Route
+app.get("/chats/new", (req, res) => {
+    res.render("chatForm.ejs");
+});
 
 app.get("/", (req, res) => {
     res.send("root is working");
