@@ -20,7 +20,7 @@ Sigma 8.0 is a full-stack web development course by [Shradha Khapra](https://www
 
 • [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-• [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+• [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 ## Features
