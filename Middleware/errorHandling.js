@@ -29,6 +29,11 @@ app.use((err, req, res, next) => {
     res.status(status).send(message);
 })
 
+// Activiy --> Admin Route
+app.get("/admin", (req, res) => {
+    // res.status(403).send("Access Denied");
+    throw new ExpressError(403, "Access-Denied");
+})
 
 app.listen(8080, () => {
     console.log("listening on 8080");
