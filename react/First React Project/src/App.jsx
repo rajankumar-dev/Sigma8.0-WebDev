@@ -1,11 +1,11 @@
-import Product from "./Product"
+import ProductTab from "./ProductTab"
+import MsgBox from "./MsgBox"
 function App() {
 
   return (
     <>
-      <Product title="Phone" price="50000"/>
-      <Product title="Laptop" price="90000"/>
-      <Product title="Pen" price="50"/>
+      <MsgBox userName={"Rajan Kumar"} textColor={"red"}/>
+      <ProductTab/>
     </>
   )
 }
