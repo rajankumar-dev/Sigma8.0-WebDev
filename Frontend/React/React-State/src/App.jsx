@@ -1,9 +1,11 @@
-import ProductTab from "./ProductTab"
+import './App.css'
+import Counter from './Counter'
+
 function App() {
 
   return (
     <>
-      <ProductTab/>
+      <Counter/>
     </>
   )
 }
