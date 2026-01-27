@@ -2,7 +2,9 @@ export default function LikeButton(){
     return(
         <>
         <div>
-            <h1>Liked</h1>
+            <p>
+                <i className="fa-regular fa-heart"></i>
+            </p>
         </div>
         </>
     )
