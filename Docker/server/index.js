@@ -3,7 +3,17 @@ import cors from "cors";
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "http://localhost:3000",
+      //add production url
+    ],
+    credentials: true,
+  }),
+);
 
 const PORT = 4000;
 
