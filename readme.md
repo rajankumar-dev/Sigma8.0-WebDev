@@ -36,13 +36,7 @@ Sigma 8.0 is a full-stack web development course by [Shradha Khapra](https://www
 
 Contributions are always Welcome
 
-See `contributing.md` for ways to get started
-
-
-
-## License
-This project is licensed under the
-[MIT License](https://choosealicense.com/licenses/mit/).  Feel free to learn, add upon, and share my work!
+See `contributing.md` for ways to get started.
 
 
 ## Feedback
