@@ -5,6 +5,7 @@ const slugpage = async ({ params }) => {
     return (
         <div>
             slug page: {slug}
+            slug page: {slug}
         </div>
     )
 }
