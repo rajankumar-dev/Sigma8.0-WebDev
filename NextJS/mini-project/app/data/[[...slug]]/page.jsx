@@ -6,6 +6,7 @@ const slugpage = async ({ params }) => {
         <div>
             slug page: {slug}
             slug page: {slug}
+            slug page: {slug}
         </div>
     )
 }
