@@ -70,12 +70,8 @@ const Footer = () => {
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                             <nav className="list-none mb-10">
-                                <li>
-                                    <Link href="/category1" className="text-gray-400 hover:text-white">First Link</Link>
-                                </li>
-                                <li>
-                                    <Link href="/category2" className="text-gray-400 hover:text-white">Second Link</Link>
-                                </li>
+
+
                                 <li>
                                     <Link href="/category3" className="text-gray-400 hover:text-white">Third Link</Link>
                                 </li>
