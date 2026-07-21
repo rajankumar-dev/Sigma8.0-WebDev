@@ -37,7 +37,19 @@ int main(){
         n /= 10;
     }
     */
-
+    
+    //Question 4
+    /*
+    int n =12345;
+     int lastDig;
+     int res = 0;
+    while(n > 0){
+        lastDig = n % 10;
+        res = res * 10 + lastDig;
+        cout << lastDig;
+        n /= 10;
+    }
+    */
     
 
     return 0;
