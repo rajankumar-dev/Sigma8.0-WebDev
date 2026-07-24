@@ -5,7 +5,7 @@ export async function POST(request) {
 
   return Response.json({
     success: true,
-    message: "todo created successfully",
+    message: "Todo Created successfully",
     todo: {
       title,
       completed,
