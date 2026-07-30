@@ -25,9 +25,9 @@ Sigma 8.0 is a full-stack Web development course by [Shradha Khapra](https://www
 
 ## Features
 
-- Technology Covered - MERN stack
+- Technology Covered - MERN Stack
 - Docker and Kubernative
-- Extra Activity - Live Practice Sessions, Doubt Support, Quant and Aptitude Preparation, Real-Life and Industry Grade Projects, Community and Support
+- Extra Activity - Live Practice Sessions, Doubt Support, Quant and Aptitude Preparation, Real-Life and industry grade projects, Community and Support
 
 
 
