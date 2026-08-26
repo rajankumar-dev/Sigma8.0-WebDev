@@ -14,4 +14,4 @@ const notSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-export const Not = mongoose.Model("Not", notSchema);
+export const Not = mongoose.model("Not", notSchema);
