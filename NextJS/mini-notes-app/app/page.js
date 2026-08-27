@@ -121,7 +121,7 @@ export default function Home() {
           {notes.length === 0 ? (
             <p className="text-gray-400">No notes found</p>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {notes.map((note) => (
                 <div
                   key={note._id}
@@ -145,7 +145,7 @@ export default function Home() {
                       Delete
                     </button>
                     <button
-                      className="bg-yellow-500 text-white py-1 px-8 rounded-lg hover:bg-yellow-600 transition mt-2"
+                      className="bg-yellow-500 text-white py-1 px-8 rounded-lg hover:bg-yellow-600 transition mt-3"
                       onClick={handleUpdate}
                     >
                       Update
