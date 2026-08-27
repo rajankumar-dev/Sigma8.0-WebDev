@@ -145,7 +145,7 @@ export default function Home() {
                       Delete
                     </button>
                     <button
-                      className="bg-yellow-500 text-white py-1 px-8 rounded-lg hover:bg-yellow-600 transition mt-3"
+                      className="bg-yellow-500 text-white py-2 px-9 rounded-lg hover:bg-yellow-600 transition mt-3"
                       onClick={handleUpdate}
                     >
                       Update
