@@ -17,19 +17,19 @@
         let btnI = document.getElementById("btn-inc");
         let btnD = document.getElementById("btn-dec");
 
-        btnI.addEventListener("click", function(){
-            count++;
-            countEl.innerHTML = count;
-        })
         btnD.addEventListener("click", function(){
             if(count == 0){
                 count = 0;
             }else{
-
+                
                 count--;
             }
             countEl.innerHTML = count;
         })
-    </script>
+        btnI.addEventListener("click", function(){
+            count++;
+            countEl.innerHTML = count;
+        })
+        </script>
 </body>
 </html>
