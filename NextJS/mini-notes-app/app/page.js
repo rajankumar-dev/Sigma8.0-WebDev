@@ -1,10 +1,26 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [notes, setNotes] = useState([]);
+
+  const fetchNotes = async () => {
+    try {
+      const res = await fetch("/api/notes");
+      const data = await res.json();
+      console.log(data);
+      setNotes(data);
+    } catch (e) {
+      console.error("error in fetching notes", e);
+    }
+  };
+
+  useEffect(() => {
+    fetchNotes();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -23,6 +39,7 @@ export default function Home() {
       });
 
       if (res.ok) {
+        fetchNotes();
         alert("Notes created successfully");
         setTitle("");
         setContent("");
@@ -34,6 +51,21 @@ export default function Home() {
       setIsLoading(false);
     }
   };
+
+  const handleDelete = async (id) => {
+    try {
+      const res = await fetch(`/api/notes/${id}`, {
+        method: "DELETE",
+      });
+      if (res.ok) {
+        setNotes(notes.filter((note) => note._id !== id));
+        alert("Note delete Successfully");
+      }
+    } catch (error) {
+      console.error("Error deleting note", error);
+    }
+  };
+  const handleUpdate = () => {};
 
   return (
     <div className="min-h-screen bg-gray-950 p-8">
@@ -83,6 +115,46 @@ export default function Home() {
               </button>
             </div>
           </form>
+        </div>
+
+        <div>
+          {notes.length === 0 ? (
+            <p className="text-gray-400">No notes found</p>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {notes.map((note) => (
+                <div
+                  key={note._id}
+                  className="bg-gray-800 rounded-lg shadow-md p-6 border border-gray-600"
+                >
+                  <h2 className="text-xl font-bold text-yellow-400 mb-2">
+                    {note.title}
+                  </h2>
+                  <p className="text-gray-400">{note.content}</p>
+
+                  <div className="mt-4 flex justify-between items-center">
+                    <span className="text-gray-500 text-sm">
+                      {new Date(note.createdAt).toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="flex gap-4 mt-5">
+                    <button
+                      className="bg-red-500 text-white py-1 px-8 rounded-lg hover:bg-red-600 transition mt-2"
+                      onClick={() => handleDelete(note._id)}
+                    >
+                      Delete
+                    </button>
+                    <button
+                      className="bg-yellow-500 text-white py-1 px-8 rounded-lg hover:bg-yellow-600 transition mt-2"
+                      onClick={handleUpdate}
+                    >
+                      Update
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
