@@ -71,7 +71,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-950 p-8">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-yellow-400 mb-2">My Notes</h1>
+          <h1 className="text-3xl font-bold text-yellow-400 mb-2">My Notes</h1>
           <p className="text-gray-400">
             Create, read, update and delete your notes
           </p>
@@ -145,7 +145,7 @@ export default function Home() {
                       Delete
                     </button>
                     <button
-                      className="bg-yellow-500 text-white py-2 px-9 rounded-lg hover:bg-yellow-600 transition mt-3"
+                      className="bg-yellow-500 text-white py-3 px-9 rounded-lg hover:bg-yellow-600 transition mt-3"
                       onClick={handleUpdate}
                     >
                       Update
