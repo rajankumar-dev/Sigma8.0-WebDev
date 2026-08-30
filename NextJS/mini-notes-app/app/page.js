@@ -71,9 +71,9 @@ export default function Home() {
     <div className="min-h-screen bg-gray-950 p-8">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-yellow-400 mb-2">My Notes</h1>
+          <h1 className="text-xl font-bold text-yellow-400 mb-2">My Notes</h1>
           <p className="text-gray-400">
-            Create, read, update and delete your notes
+            Create, Read, Update and Delete your Notes
           </p>
         </div>
 
