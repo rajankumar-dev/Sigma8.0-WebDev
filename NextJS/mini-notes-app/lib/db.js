@@ -3,8 +3,9 @@ import mongoose from "mongoose";
 export async function connectDB() {
   try {
     await mongoose.connect("mongodb://localhost:27017/mini-notes-app");
-    console.log("db connected");
+    console.log("db connected successfully");
   } catch (e) {
-    throw new Error(e);
+    console.error("error in connecting db", e);
+    throw new Error("Failed to connect to database");
   }
 }
