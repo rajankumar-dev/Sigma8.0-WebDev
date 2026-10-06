@@ -1,7 +1,10 @@
 import React from 'react'
 
 export const metadata = {
-  title: "About Page",
+  title: {
+    default: "About Page",
+    template: "%s | My App"
+  },
   description: "This is the about page of the Next.js application.",
 };
 

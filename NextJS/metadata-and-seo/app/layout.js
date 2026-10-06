@@ -12,7 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Learn about Metadata and SEO in Next.js",
+  title: {
+    default: "Learn about Metadata and SEO in Next.js",
+    template: "%s | My App"
+  },
   description: "By Hitesh choudhary",
 };
 
