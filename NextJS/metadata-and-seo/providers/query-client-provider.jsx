@@ -5,13 +5,13 @@ import { useState } from "react";
 
 
  
-function QueryClientProviderClient({Children}){
+function QueryClientProviderClient({children}){
 
     const [queryClient] = useState(() => new QueryClient());
 
     return(
         <QueryClientProvider client={queryClient}>
-            {Children}
+            {children}
         </QueryClientProvider>
     )
 }
